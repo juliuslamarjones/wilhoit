@@ -6,34 +6,18 @@
     <title>Wilhoit Properties - Resident Digital Portal</title>
     <link rel="manifest" href="manifest.json">
     <style>
-        :root {
-            --primary-dark: #1b263b;
-            --primary-blue: #0d1b2a;
-            --accent-orange: #d97706;
-            --bg-color: #f8fafc;
-            --card-bg: #ffffff;
-            --text-main: #334155;
-            --gray-logo-filter: grayscale(100%) contrast(120%);
-        }
-        body {
-            font-family: system-ui, -apple-system, sans-serif;
-            background-color: var(--bg-color);
-            color: var(--text-main);
-            margin: 0; padding: 20px;
-            display: flex; flex-direction: column; align-items: center;
-            min-height: 100vh;
-        }
+        body { font-family: system-ui, sans-serif; background: #f8fafc; color: #334155; margin: 0; padding: 20px; display: flex; flex-direction: column; align-items: center; min-height: 100vh; }
         .container { width: 100%; max-width: 480px; display: flex; flex-direction: column; align-items: center; }
-        .logo-container { background: var(--card-bg); padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); margin-bottom: 20px; width: 100%; text-align: center; box-sizing: border-box; }
-        .logo-container img { max-width: 200px; height: auto; filter: var(--gray-logo-filter); }
-        h1 { font-size: 1.5rem; color: var(--primary-blue); margin: 10px 0 5px 0; text-align: center; }
-        .subtitle { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: var(--accent-orange); font-weight: 700; margin-bottom: 5px; }
+        .logo-container { background: #fff; padding: 20px; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); margin-bottom: 20px; width: 100%; text-align: center; box-sizing: border-box; }
+        .logo-container img { max-width: 200px; height: auto; filter: grayscale(100%) brightness(1.1); }
+        h1 { font-size: 1.5rem; color: #0d1b2a; margin: 10px 0 5px 0; text-align: center; }
+        .subtitle { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 1px; color: #d97706; font-weight: 700; margin-bottom: 5px; }
         .subtext { font-size: 0.8rem; color: #64748b; margin-bottom: 25px; text-align: center; }
         .btn-row { display: flex; gap: 10px; width: 100%; margin-bottom: 20px; }
-        .action-btn { flex: 1; padding: 12px; border: 1px solid #cbd5e1; background: var(--card-bg); color: var(--text-main); border-radius: 8px; font-weight: 600; text-decoration: none; text-align: center; font-size: 0.9rem; }
-        .primary-action { width: 100%; padding: 15px; background: var(--primary-dark); color: white; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; margin-bottom: 12px; cursor: pointer; text-align: center; text-decoration: none; display: inline-block; box-sizing: border-box; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
-        .primary-action.alt { background: #ffffff; color: var(--primary-dark); border: 2px solid var(--primary-dark); }
-        .card-box { background: var(--card-bg); border-radius: 12px; padding: 20px; width: 100%; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); box-sizing: border-box; min-height: 180px; margin-bottom: 20px; }
+        .action-btn { flex: 1; padding: 12px; border: 1px solid #cbd5e1; background: #fff; color: #334155; border-radius: 8px; font-weight: 600; text-decoration: none; text-align: center; font-size: 0.9rem; }
+        .primary-action { width: 100%; padding: 15px; background: #1b263b; color: white; border: none; border-radius: 8px; font-weight: bold; font-size: 1rem; margin-bottom: 12px; text-align: center; text-decoration: none; display: inline-block; box-sizing: border-box; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); }
+        .primary-action.alt { background: #fff; color: #1b263b; border: 2px solid #1b263b; }
+        .card-box { background: #fff; border-radius: 12px; padding: 20px; width: 100%; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); box-sizing: border-box; min-height: 180px; margin-bottom: 20px; }
     </style>
 </head>
 <body>
@@ -43,12 +27,12 @@
         <h1>Resident Digital Portal</h1>
         <div class="subtext">Official Community Access Hub</div>
         <div class="btn-row">
-            <a href="tel:5555555555" class="action-btn">?? Leasing Office</a>
-            <a href="mailto:support@quicktapsolutions.com" class="action-btn">?? Email Support</a>
+            <a href="tel:5555555555" class="action-btn">📞 Leasing Office</a>
+            <a href="mailto:support@quicktapsolutions.com" class="action-btn">✉️ Email Support</a>
         </div>
         <div class="card-box"></div>
-        <a href="#" class="primary-action">? ENABLE COMMUNITY ALERTS</a>
-        <a href="#" class="primary-action alt">?? SAVE PROPERTY CONTACT</a>
+        <a href="#" class="primary-action">⚡ ENABLE COMMUNITY ALERTS</a>
+        <a href="#" class="primary-action alt">💾 SAVE PROPERTY CONTACT</a>
     </div>
 </body>
 </html>
